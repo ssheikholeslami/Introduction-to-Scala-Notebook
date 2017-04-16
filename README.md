@@ -3,7 +3,8 @@ A Notebook-ready guide to the basic syntax and features of Scala.
 ## Import Notebook in Databricks
 You can either use [this link](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7658591944105421/3162710545890990/6751888352535706/latest.html) to directly import the notebook in Databricks, or use various formats that are available in this repository.</br>
 Happy Scala-ing!
-
+## Keeping Notebook Formats in Sync
+We always try to sync all the different formats in the repository; However, for ease of development, we first make our changes in the [Databricks Notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7658591944105421/3162710545890990/6751888352535706/latest.html) and change the other formats accordingly.</br>
 ## Acknowledgements
 
 The design and content of this notebook has been **heavily** influenced by the following (In some cases, direct content has been placed here).</br>
