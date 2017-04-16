@@ -1,7 +1,13 @@
-# Introduction to Scala (Notebook Ready)
+<h1 align="center">Introduction to Scala</h1>
+
+<h3 align="center">Notebook Ready!</h3>
+</br>
+
+[![Github All Releases](https://img.shields.io/github/downloads/ssheikholeslami/Introduction-to-Scala-Notebook/total.svg)]() [![GitHub issues](https://img.shields.io/github/issues/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/issues) [![GitHub forks](https://img.shields.io/github/forks/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/network) [![GitHub stars](https://img.shields.io/github/stars/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/stargazers) [![Twitter](https://img.shields.io/twitter/url/https/github.com/ssheikholeslami/Introduction-to-Scala-Notebook.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+
 A Notebook-ready guide to the basic syntax and features of Scala.
-## Import Notebook in Databricks
-You can either use [this link](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7658591944105421/3162710545890990/6751888352535706/latest.html) to directly import the notebook in Databricks, or use various formats that are available in this repository.</br>
+## Using The Material
+You can either use [this link](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7658591944105421/3162710545890990/6751888352535706/latest.html) to directly import the notebook in your Databricks Cloud workspace, or use various formats that are available in this repository.</br>
 Happy Scala-ing!
 ## Keeping Notebook Formats in Sync
 We always try to sync all the different formats in the repository; However, for ease of development, we first make our changes in the [Databricks Notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7658591944105421/3162710545890990/6751888352535706/latest.html) and change the other formats accordingly.</br>
