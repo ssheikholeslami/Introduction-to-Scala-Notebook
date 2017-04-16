@@ -3,7 +3,7 @@
 <h3 align="center">Notebook Ready!</h3>
 </br>
 
-[![Github All Releases](https://img.shields.io/github/downloads/ssheikholeslami/Introduction-to-Scala-Notebook/total.svg)]() [![GitHub issues](https://img.shields.io/github/issues/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/issues) [![GitHub forks](https://img.shields.io/github/forks/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/network) [![GitHub stars](https://img.shields.io/github/stars/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/stargazers) [![Twitter](https://img.shields.io/twitter/url/https/github.com/ssheikholeslami/Introduction-to-Scala-Notebook.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![GitHub issues](https://img.shields.io/github/issues/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/issues) [![GitHub forks](https://img.shields.io/github/forks/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/network) [![GitHub stars](https://img.shields.io/github/stars/ssheikholeslami/Introduction-to-Scala-Notebook.svg)](https://github.com/ssheikholeslami/Introduction-to-Scala-Notebook/stargazers) [![Twitter](https://img.shields.io/twitter/url/https/github.com/ssheikholeslami/Introduction-to-Scala-Notebook.svg?style=social)](https://twitter.com/intent/tweet?text=Cool!:&url=%5Bobject%20Object%5D)
 
 A Notebook-ready guide to the basic syntax and features of Scala.
 ## Using The Material
