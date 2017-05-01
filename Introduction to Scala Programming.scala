@@ -4,7 +4,7 @@
 // MAGIC # Introduction To Scala Programming
 // MAGIC [Sina Sheikholeslami](https://www.linkedin.com/in/sinasheikholeslami/), [Big Data R&D Engineer @ Digikala.com](mailto:ssheikholeslami@gmail.com)</br>
 // MAGIC [Mohammad Mazrae](https://www.linkedin.com/in/mohammadmazraeh/), [Big Data Engineer & Data Scientist @ Digikala.com](mailto:mazraeh.mohammad@gmail.com)</br>
-// MAGIC (Last Edited: April 15 2017)
+// MAGIC (Last Updated: May 1 2017)
 // MAGIC 
 // MAGIC 
 // MAGIC Welcome to Scala, and let's get started!</br>
@@ -523,6 +523,63 @@ array(4) = "Bye"
 // COMMAND ----------
 
 array.foreach(println)
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC ##Options
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC **Options** are the way Scala deals with the situations where we might have a `null` value. Scala's `Option` is an abstract class which has two concrete subclasses:
+// MAGIC - `Some`, for when we have a value, and
+// MAGIC - `None`, for when we don't have a value - when it's `null`.</br>
+// MAGIC The following example demonstrates everything you'll probably need to know about Options:
+
+// COMMAND ----------
+
+val stateCapitals = Map(
+  "Alabama" -> "Montgomery",
+  "Alaska" -> "Juneau",
+  "Wyoming" -> "Cheyenne"
+)
+
+// COMMAND ----------
+
+println( "Get the capitals wrapped in Options:" )
+println( "Alabama: " + stateCapitals.get("Alabama") )
+println( "Wyoming: " + stateCapitals.get("Wyoming") )
+println( "Unknown: " + stateCapitals.get("Unknown") )
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC The `Map.get` method returns an `Option[T]` (`T` is `String` in our case). By returning an Option, we can’t “forget” that we have to verify that something was returned.</br>
+// MAGIC As you can see, when we ask for an entry that does not exist, the `None` object will be returned - instead of a `null` keyword.
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC Now we call `get` or `getOrElse` on each `Option` instance to retrieve the value it contains. Using `get` can be dangerous, because if the returned object is a `None`, calling `get` on it would result in a `NoSuchElementException`.</br>
+// MAGIC It's better to use `getOrElse`, where you can specify a default return value in case of a `None`.</br>
+// MAGIC Let's see this in action:
+
+// COMMAND ----------
+
+println( "Get the capitals themselves out of the Options:" )
+println( "Alabama: " + stateCapitals.get("Alabama").get )
+println( "Wyoming: " + stateCapitals.get("Wyoming").getOrElse("Oops!") )
+println( "Unknown: " + stateCapitals.get("Unknown").getOrElse("Oops2!") )
+
+//let's play with fire!
+println( "Unknown: " + stateCapitals.get("Unknown").get)
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC Did you see that? 😁 </br>
+// MAGIC So, always use `getOrElse` to make sure you don't run into exceptions.
 
 // COMMAND ----------
 
